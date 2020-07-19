@@ -13,7 +13,7 @@ function brickCalculator(floor){
         var step3 = feet * 10 * floor;
         return step3;
     }
-    return (step1 + step2 + step3);
+    return step1 + step2 + step3;
       
 }
 var result = brickCalculator(30);
